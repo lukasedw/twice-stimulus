@@ -1,0 +1,8 @@
+%h1 Foo#index_erb
+%p Find me in app/views/foo/index_erb.html.erb
+
+= form_for :test do |f|
+  .row
+
+#example{ data: { controller: 'example' } }
+  %a{ data: { reflex: 'click->Example#create' }, href: '#' } Go!
